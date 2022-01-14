@@ -63,6 +63,6 @@ app.post('/register',async(req,res)=>{
     
 })
 
-app.listen(5000,()=>{
-    console.log("live on port 5000...")
+app.listen("https://mi-store-server.herokuapp.com",()=>{
+    console.log("live")
 })
